@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LinkDevelopment" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.LinkDevelopment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LinkDevelopment.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+
+    <style name="Theme.LinkDevelopment.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="backgroundColor">@color/white</item>
+        <item name="background">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+</resources>

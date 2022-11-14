@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Link Development</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_subtitle">Toni Roshdy</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="explore">Explore</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wishlist">Wish List</string>
+    <string name="magazine">E-Magazine</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="article_image">article image</string>
+    <string name="open_website">Open Website</string>
+    <string name="network_failure">Network failure!</string>
+    <string name="somthing_went_wrong">something went wrong!</string>
+
+    <string-array name="navigation">
+        <item>@string/explore</item>
+        <item>@string/live_chat</item>
+        <item>@string/gallery</item>
+        <item>@string/wishlist</item>
+        <item>@string/magazine</item>
+    </string-array>
+</resources>

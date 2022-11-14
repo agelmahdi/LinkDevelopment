@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/app_name"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.agelmahdi.linkdevelopment.presentation.fragment.DetailsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_details" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.agelmahdi.linkdevelopment.presentation.fragment.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="false" />
+        <argument android:name="article" />
+    </fragment>
+
+</navigation>

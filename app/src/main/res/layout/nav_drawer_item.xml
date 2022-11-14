@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start|center"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/nav_header_vertical_spacing"
+    android:paddingBottom="@dimen/nav_header_vertical_spacing">
+
+    <ImageView
+        android:id="@+id/ivSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dim_height"
+        android:src="@drawable/selected"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/dim_icon"
+        android:layout_height="@dimen/dim_icon"
+        android:layout_marginStart="@dimen/pad24"
+        android:layout_marginEnd="@dimen/pad14"
+        android:src="@drawable/explore"
+        app:tint="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/nav_header_vertical_spacing"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp16" />
+
+</LinearLayout>
